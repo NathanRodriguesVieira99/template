@@ -4,3 +4,27 @@
   box-sizing: border-box;
 }
 
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.Odin {
+  width: 100%;
+  overflow: hidden;
+}
+
+picture,
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+}

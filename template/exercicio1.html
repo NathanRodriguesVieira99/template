@@ -9,9 +9,17 @@
 </head>
 
 <body>
-  <div class="imgContainer">
+  <div class="Odin">
     <picture>
-      <img src="" alt="">
+      <!-- para imagens maiores que 992px -->
+      <source srcset="https://super.abril.com.br/wp-content/uploads/2018/07/569002c382bee110460a5babpiramides-face.jpeg"
+        media="(min-width: 992px)">
+      <!-- para imagens entre 576px e 992px -->
+      <source
+        srcset="https://www.meisterdrucke.pt/kunstwerke/1000px/David%20Roberts%20-%20The%20Great%20Sphinx%20and%20the%20Pyramids%20of%20Giza%20from%20Egypt%20and%20Nubia%20Vol1%20%20-%20(MeisterDrucke-193377).jpg"
+        media="(min-width: 576px)">
+      <!-- para imgens menores que 576px -->
+      <img src="https://portalnovonorte.com.br/images/noticias/57152/58d93cd5056187f8d3659f7c9a7b126c.jpg">
     </picture>
   </div>
 </body>
