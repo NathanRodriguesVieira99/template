@@ -6,7 +6,7 @@
 }
 
 body {
-  max-width: 576px;
+  /* max-width: 576px; */
   font-family: Arial, sans-serif;
 }
 
@@ -85,7 +85,7 @@ body {
   }
 
   .pai-list {
-    display: block;
+    display: none;
   }
 
   .menu-list {
@@ -108,6 +108,9 @@ body {
 
 /* Laptops e desktops (1024px e acima) */
 @media (min-width: 1024px) {
+  body{
+    width: 100%;
+  }
   .header {
     padding: 20px 50px;
   }
