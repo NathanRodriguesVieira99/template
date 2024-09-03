@@ -1,0 +1,3 @@
+@import url('primeiro.css') screen and (min-width: 768px);
+@import url('segundo.css') screen and (orientation: landscape) and (min-height: 500px);
+@import url('terceiro.css') screen and (orientation: portrait) and (max-width: 1024px);
