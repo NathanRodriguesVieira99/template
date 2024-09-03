@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   max-width: 576px;
-}
+} */
 
 .header {
   display: flex;

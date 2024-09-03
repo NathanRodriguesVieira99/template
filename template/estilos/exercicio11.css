@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 576px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.odinImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgTribe {
+  max-width: 100%;
+  height: auto;
+}
+
+.odinText {
+  padding: 10px;
+  text-align: center;
+}
+
+.text {
+  line-height: 1.2;
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .odinImg {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .imgTribe {
+    width: 100%;
+  }
+
+  .odinText {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+
+  }
+}
